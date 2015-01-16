@@ -1,0 +1,36 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#4876FF</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#3A5FCD</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@color/backgroud</item>
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+        <!-- 菜单按钮 -->
+        <item name="actionOverflowButtonStyle">@style/AppTheme.overflow</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/AppBaseTheme"/>
+
+    <!-- 箭头颜色 -->
+    <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!-- 替换菜单文件 -->
+    <style name="AppTheme.overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/android</item>
+    </style>
+
+    <!-- popup style -->
+    <style name="ToolBarStyle" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+</resources>

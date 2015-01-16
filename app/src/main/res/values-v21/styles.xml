@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorPrimaryDark">#1976D2</item>
+        <item name="android:navigationBarColor">#1976D2</item>
+        <item name="android:colorAccent">#FF00FF</item>
+        <item name="android:colorButtonNormal">#FFFF00</item>
+        <item name="android:colorControlNormal">#FFFFFF</item>
+    </style>
+
+</resources>
